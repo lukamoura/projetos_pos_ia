@@ -1,0 +1,21 @@
+{
+    "name": "exemplo-06-playwright-testes",
+    "version": "1.0.0",
+    "description": "Playwright-only end-to-end tests for the vanilla-js-web-app-example",
+    "type": "module",
+    "scripts": {
+        "test": "playwright test",
+        "test:ui": "playwright test --ui",
+        "report": "playwright show-report"
+    },
+    "keywords": [
+        "playwright",
+        "e2e",
+        "testing"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.61.1"
+    }
+}
