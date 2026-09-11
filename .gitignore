@@ -137,3 +137,6 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Windows/WSL alternate data stream metadata (files copied from Windows)
+*:Zone.Identifier
